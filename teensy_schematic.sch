@@ -520,18 +520,11 @@ Wire Wire Line
 	2800 2500 2900 2500
 Wire Wire Line
 	1900 2900 1900 3000
-Connection ~ 2000 2500
-Wire Wire Line
-	1900 2500 1900 2600
-Wire Wire Line
-	2000 2500 1900 2500
 Wire Wire Line
 	2800 600  2800 2600
 Wire Wire Line
 	2800 600  10450 600 
 Connection ~ 2000 2150
-Wire Wire Line
-	2000 2150 2000 2600
 Connection ~ 2600 2150
 Wire Wire Line
 	2850 2150 2600 2150
@@ -575,8 +568,6 @@ Wire Wire Line
 	1150 650  1150 2150
 Wire Wire Line
 	1150 2150 2250 2150
-Wire Wire Line
-	2250 2150 2250 1700
 Wire Wire Line
 	2450 2250 2450 1700
 Wire Wire Line
@@ -996,4 +987,36 @@ F 3 "" H 1150 650 50  0000 C CNN
 	1    1150 650 
 	1    0    0    -1  
 $EndComp
+$Comp
+L D D?
+U 1 1 57F4C2C5
+P 2250 1900
+F 0 "D?" H 2250 2000 50  0000 C CNN
+F 1 "D" H 2250 1800 50  0000 C CNN
+F 2 "" H 2250 1900 50  0000 C CNN
+F 3 "" H 2250 1900 50  0000 C CNN
+	1    2250 1900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2250 2150 2250 2050
+Wire Wire Line
+	2250 1750 2250 1700
+$Comp
+L D D?
+U 1 1 57F4C6EC
+P 2000 2350
+F 0 "D?" H 2000 2450 50  0000 C CNN
+F 1 "D" H 2000 2250 50  0000 C CNN
+F 2 "" H 2000 2350 50  0000 C CNN
+F 3 "" H 2000 2350 50  0000 C CNN
+	1    2000 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1900 2600 2000 2600
+Wire Wire Line
+	2000 2600 2000 2500
+Wire Wire Line
+	2000 2200 2000 2150
 $EndSCHEMATC
